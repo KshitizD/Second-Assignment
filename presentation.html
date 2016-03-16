@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Kshitiz Dahal">
+  <title>Title Presentation</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Title Presentation</h1>
+  <h2 class="author">Kshitiz Dahal</h2>
+  <h3 class="date">M.SC., Tilburg University</h3>
+</section>
+
+<section class="slide level2">
+
+<p><strong>Modeling Assignment 1 : Variety Expansion Models</strong> <strong>Kshitiz Dahal</strong></p>
+<p>ANR: 123934</p>
+</section>
+<section class="slide level2">
+
+<p><strong><em>1.Introduction to the two Variety Expansion Models</em></strong></p>
+<p><em>a. Simple Variant of the Product-variety Model:</em> This model is built on the assumption that final output is used as an R&amp;D input. The intuition behind the model is that the final good is used for consumption and investment. Its only other use is in producing intermediate products. So, the economy’s Gross Domestic Product (GDP) is final output $ Y_t $ minus the amount used in intermediate production.</p>
+<p><em>b.Romer Model with Labor as R&amp;D Input:</em> In this alternative model , a fraction of Labor, $ L_1 $ is used in the production of final goods, and the other fraction, $ L_2 $ is allocated for research activities directed towards increasing variety. ***</p>
+<p><strong>b.Comparison between two alternative Variety Expansion Models</strong></p>
+<p>The most fundamental difference between Model 1 and Model 2 comes from the source of input used for production of intermediate products (the R&amp;D input). A portion of output R is used as R&amp;D input in Model 1, whereas a fraction of Labor $ L_2 $ is the R&amp;D input in second model.</p>
+<p>Because of the fundamental differences mentioned above, the first model has the whole Labor L in its output equation whereas, only $ L_1 $ is seen in Model 2 because the rest of the population $ L_2 $ is in R&amp;D instead of output production. Thus, the two models differ mostly in terms of the labor term. ***</p>
+<p><strong>Let’s compare outputs in the two models</strong><br />
+<img src="images/output" alt="image" /> ***</p>
+<p><strong>Output</strong></p>
+<p>The final goods’ output in Model 1 is given by:-</p>
+<p><span class="math display">\[Y_t = L^{1-\alpha}\int_{0}^{M_t}x_i^{\alpha}dx\]</span></p>
+<p>Or,</p>
+<p><span class="math display">\[Y_t = L^{1-\alpha} \sum_{i=1}^{M_t} x_i^{\alpha}\]</span></p>
+<p>The final goods’ output in Model 2 is given by:-</p>
+<p><span class="math display">\[Y_t = L_1^{1-\alpha}\int_{0}^{M_t}x_i^{\alpha}dx\]</span></p>
+<p>Or,</p>
+<p><span class="math display">\[Y_t = (L-L_R)^{1-\alpha} \sum_{i=1}^{M_t} x_i^{\alpha}\]</span> ***</p>
+<p><strong>Intermediate Products</strong></p>
+<p>The amount of intermediate products used in Model 1 is given by :-</p>
+<p><span class="math inline">\(x = L \alpha ^ \frac {2} {1-\alpha}\)</span></p>
+<p>Or,</p>
+<p>$ Y = (ML_y)^{1-} (s_x Y)^{} $</p>
+<p>The amount of intermediate products used in Model 2 is given by :-</p>
+<p><span class="math inline">\(x = L_1 \alpha ^ {\frac {2} {(1-\alpha)}}\)</span></p>
+<p>Or,</p>
+<p>$ Y = M(L-L_R)s_x^ {} $ ***</p>
+<p><strong>Rate of innovation</strong></p>
+<p>The rate at which the variety expands, that is, the rate of innovation for Model 1 is given by :-</p>
+<p><span class="math display">\[\frac{dM_t}{dt}=\lambda R_t\]</span></p>
+<p>Or,</p>
+<p>$=R $</p>
+<p>The rate at which the variety expands, that is, the rate of innovation for Model 2 is given by :-</p>
+<p><span class="math display">\[\frac{dM_t}{dt}=\lambda M_t L_2\]</span></p>
+<p>Or,</p>
+<p>$=_L M L_R $ ***</p>
+<p><strong>Profits</strong></p>
+<p>The profits for innovation sector in Model 1 is given by:-</p>
+<p>$ = L ^{} $</p>
+<p>The profits for innovation sector in Model 2 is given by:-</p>
+<p>$ = L_1 ^{} $ ***</p>
+<p><strong>Interest rates</strong></p>
+<p>The rate of return for Model 1 is given by :-</p>
+<p><span class="math inline">\(r = \lambda\alpha L(1-\alpha)s_x^{\frac{\alpha}{1-\alpha}}\)</span></p>
+<p>The rate of return for Model 2 is given by :-</p>
+<p><span class="math inline">\(r = \lambda_L\alpha (L-\frac {g}{\lambda_L})\)</span> ***</p>
+<p><strong>Growth Rate</strong></p>
+<p>The growth rate for Model 1 is given by :-</p>
+<p><span class="math display">\[g = \frac{\lambda \frac{1-\alpha} {\alpha} L\alpha^{\frac {2} {1-\alpha}}-\rho } {\varepsilon}\]</span></p>
+<p>The growth rate for Model 2 is given by :-</p>
+<p><span class="math display">\[g = \frac{\alpha \lambda L - \rho}{\alpha + \varepsilon}\]</span> ***</p>
+<p><strong>Graphical Representation</strong></p>
+<figure>
+<img src="images/ExcelGraph" alt="image" /><figcaption>image</figcaption>
+</figure>
+<p>Growth and interest rate in response to parameter shocks ***</p>
+<p><strong>d. Comments from numerical calibration in Excel</strong></p>
+<p>The effect of change in preferences $ ($ and $ ) $ showed following characteristics over the two models :-</p>
+<ul>
+<li>Increasing growth rate needs more effort in Labor R&amp;D Model than Lab Equipment Model as shown by the response of growth rate to parameter shocks.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Returns on innovation (interest rates) are independent of growth rate for Lab Equipment Model whereas returns on innovation dropped in Labor R&amp;D Model when growth rates increased.</li>
+</ul>
+<!-- -->
+<ul>
+<li>The response of growth rates to parameter shocks was as expected. The growth rates changed in the same direction.</li>
+</ul>
+<p>The effect of change in initial condition <span class="math inline">\((\lambda)\)</span></p>
+<ul>
+<li>The growth rates changed in both directions, but the effect was bigger for Lab Equipment Model.</li>
+</ul>
+<p>The effect of change in $ $</p>
+<ul>
+<li>The change in $ $ changed the growth rates in different direction, decreasing growth rate for Lab Equipment Model, while increasing growth rate for Labor R&amp;D model. ***</li>
+</ul>
+<p><strong>Conclusion</strong></p>
+<ul>
+<li><p>The models behaved differently with respect to different parameter shocks because of the difference in inputs used for R&amp;D between two models.</p></li>
+<li><p>Both models have the prospects of unbounded growth ***</p></li>
+</ul>
+<figure>
+<img src="images/ThankYou" alt="image" /><figcaption>image</figcaption>
+</figure>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

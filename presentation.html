@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Kshitiz Dahal">
-  <title>Title Presentation</title>
+  <title>Modelling Assignment</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,75 +29,115 @@
     <div class="slides">
 
 <section>
-  <h1 class="title">Title Presentation</h1>
+  <h1 class="title">Modelling Assignment</h1>
   <h2 class="author">Kshitiz Dahal</h2>
   <h3 class="date">M.SC., Tilburg University</h3>
 </section>
-
-<section class="slide level2">
-
-<p><strong>Modeling Assignment 1 : Variety Expansion Models</strong> <strong>Kshitiz Dahal</strong></p>
-<p>ANR: 123934</p>
+<section id="TOC">
+<ul>
+<li><a href="#/introduction">1.Introduction</a></li>
+<li><a href="#/comparison">2.Comparison</a></li>
+<li><a href="#/difference-in-variables-aka-equations">3. Difference in variables (aka equations)</a></li>
+<li><a href="#/comments-from-numerical-calibration">4. Comments from numerical calibration</a></li>
+<li><a href="#/conclusion">5. Conclusion</a></li>
+</ul>
 </section>
+
 <section class="slide level2">
 
-<p><strong><em>1.Introduction to the two Variety Expansion Models</em></strong></p>
-<p><em>a. Simple Variant of the Product-variety Model:</em> This model is built on the assumption that final output is used as an R&amp;D input. The intuition behind the model is that the final good is used for consumption and investment. Its only other use is in producing intermediate products. So, the economy’s Gross Domestic Product (GDP) is final output $ Y_t $ minus the amount used in intermediate production.</p>
-<p><em>b.Romer Model with Labor as R&amp;D Input:</em> In this alternative model , a fraction of Labor, $ L_1 $ is used in the production of final goods, and the other fraction, $ L_2 $ is allocated for research activities directed towards increasing variety. ***</p>
-<p><strong>b.Comparison between two alternative Variety Expansion Models</strong></p>
-<p>The most fundamental difference between Model 1 and Model 2 comes from the source of input used for production of intermediate products (the R&amp;D input). A portion of output R is used as R&amp;D input in Model 1, whereas a fraction of Labor $ L_2 $ is the R&amp;D input in second model.</p>
-<p>Because of the fundamental differences mentioned above, the first model has the whole Labor L in its output equation whereas, only $ L_1 $ is seen in Model 2 because the rest of the population $ L_2 $ is in R&amp;D instead of output production. Thus, the two models differ mostly in terms of the labor term. ***</p>
-<p><strong>Let’s compare outputs in the two models</strong><br />
-<img src="images/output" alt="image" /> ***</p>
-<p><strong>Output</strong></p>
+</section>
+<section><section id="introduction" class="titleslide slide level1"><h1>1.Introduction</h1></section><section class="slide level2">
+
+<figure>
+<img src="images\introduction.jpg" />
+</figure>
+</section><section class="slide level2">
+
+<p><strong>Model 1:</strong></p>
+<p>This model is built on the assumption that final output is used as an R&amp;D input. The intuition behind the model is that the final good is used for consumption and investment. Its only other use is in producing intermediate products. So, the economy’s Gross Domestic Product (GDP) is final output <span class="math display">\[ Y_t \]</span> minus the amount used in intermediate production.</p>
+</section><section class="slide level2">
+
+<p><strong>Model 2:</strong></p>
+<p>In this alternative model , a fraction of Labor, <span class="math display">\[ L_1 \]</span> is used in the production of final goods, and the other fraction, <span class="math display">\[ L_2 \]</span> is allocated for research activities directed towards increasing variety.</p>
+</section><section class="slide level2">
+
+</section></section>
+<section><section id="comparison" class="titleslide slide level1"><h1>2.Comparison</h1></section><section class="slide level2">
+
+<p>The most fundamental difference between Model 1 and Model 2 comes from the source of input used for production of intermediate products (the R&amp;D input). A portion of output R is used as R&amp;D input in Model 1, whereas a fraction of Labor <span class="math display">\[ L_2 \]</span> is the R&amp;D input in second model.</p>
+</section><section class="slide level2">
+
+<p>Because of the fundamental differences mentioned above, the first model has the whole Labor L in its output equation whereas, only <span class="math display">\[ L_1 \]</span> is seen in Model 2 because the rest of the population <span class="math display">\[ L_2 \]</span> is in R&amp;D instead of output production. Thus, the two models differ mostly in terms of the labor term.</p>
+</section><section class="slide level2">
+
+</section></section>
+<section><section id="difference-in-variables-aka-equations" class="titleslide slide level1"><h1>3. Difference in variables (aka equations)</h1></section><section class="slide level2">
+
+<figure>
+<img src="images\equation.jpg" />
+</figure>
+</section><section class="slide level2">
+
 <p>The final goods’ output in Model 1 is given by:-</p>
-<p><span class="math display">\[Y_t = L^{1-\alpha}\int_{0}^{M_t}x_i^{\alpha}dx\]</span></p>
+<p><span class="math display">\[ Y_t = L^{1-\alpha}\int_{0}^{M_t}x_i^{\alpha}dx \]</span></p>
 <p>Or,</p>
-<p><span class="math display">\[Y_t = L^{1-\alpha} \sum_{i=1}^{M_t} x_i^{\alpha}\]</span></p>
+<p><span class="math display">\[ Y_t = L^{1-\alpha} \sum_{i=1}^{M_t} x_i^{\alpha}\]</span></p>
 <p>The final goods’ output in Model 2 is given by:-</p>
-<p><span class="math display">\[Y_t = L_1^{1-\alpha}\int_{0}^{M_t}x_i^{\alpha}dx\]</span></p>
+<p><span class="math display">\[ Y_t = L_1^{1-\alpha}\int_{0}^{M_t}x_i^{\alpha}dx \]</span></p>
 <p>Or,</p>
-<p><span class="math display">\[Y_t = (L-L_R)^{1-\alpha} \sum_{i=1}^{M_t} x_i^{\alpha}\]</span> ***</p>
-<p><strong>Intermediate Products</strong></p>
+<p><span class="math display">\[ Y_t = (L-L_R)^{1-\alpha} \sum_{i=1}^{M_t} x_i^{\alpha} \]</span></p>
+</section><section class="slide level2">
+
 <p>The amount of intermediate products used in Model 1 is given by :-</p>
-<p><span class="math inline">\(x = L \alpha ^ \frac {2} {1-\alpha}\)</span></p>
+<p><span class="math display">\[ x = L \alpha ^ \frac {2} {1-\alpha} \]</span></p>
 <p>Or,</p>
-<p>$ Y = (ML_y)^{1-} (s_x Y)^{} $</p>
+<p><span class="math display">\[ Y = (ML_y)^{1-\alpha} (s_x Y)^{\alpha} \]</span></p>
 <p>The amount of intermediate products used in Model 2 is given by :-</p>
-<p><span class="math inline">\(x = L_1 \alpha ^ {\frac {2} {(1-\alpha)}}\)</span></p>
+<p><span class="math display">\[ x = L_1 \alpha ^ {\frac {2} {(1-\alpha)}} \]</span></p>
 <p>Or,</p>
-<p>$ Y = M(L-L_R)s_x^ {} $ ***</p>
-<p><strong>Rate of innovation</strong></p>
+<p><span class="math display">\[ Y = M(L-L_R)s_x^ {\frac{\alpha}{(1-\alpha)}} \]</span></p>
+</section><section class="slide level2">
+
 <p>The rate at which the variety expands, that is, the rate of innovation for Model 1 is given by :-</p>
-<p><span class="math display">\[\frac{dM_t}{dt}=\lambda R_t\]</span></p>
-<p>Or,</p>
-<p>$=R $</p>
+<p><span class="math display">\[ \frac{dM_t}{dt}=\lambda R_t \]</span><br />
+Or,<br />
+<span class="math display">\[ \dot{M}=\lambda R  \]</span></p>
 <p>The rate at which the variety expands, that is, the rate of innovation for Model 2 is given by :-</p>
-<p><span class="math display">\[\frac{dM_t}{dt}=\lambda M_t L_2\]</span></p>
-<p>Or,</p>
-<p>$=_L M L_R $ ***</p>
+<p><span class="math display">\[ \frac{dM_t}{dt}=\lambda M_t L_2 \]</span><br />
+Or,<br />
+<span class="math display">\[ \dot{M}=\lambda_L M L_R  \]</span></p>
+</section><section class="slide level2">
+
 <p><strong>Profits</strong></p>
 <p>The profits for innovation sector in Model 1 is given by:-</p>
-<p>$ = L ^{} $</p>
+<p><span class="math display">\[ \pi = \frac {1-\alpha} {\alpha}L \alpha^{\frac {2}{1-\alpha}} \]</span></p>
 <p>The profits for innovation sector in Model 2 is given by:-</p>
-<p>$ = L_1 ^{} $ ***</p>
+<p><span class="math display">\[ \pi = \frac{1-\alpha}{\alpha}L_1 \alpha^{\frac {2}{1-\alpha}} \]</span></p>
+</section><section class="slide level2">
+
 <p><strong>Interest rates</strong></p>
 <p>The rate of return for Model 1 is given by :-</p>
-<p><span class="math inline">\(r = \lambda\alpha L(1-\alpha)s_x^{\frac{\alpha}{1-\alpha}}\)</span></p>
+<p><span class="math display">\[ r = \lambda\alpha L(1-\alpha)s_x^{\frac{\alpha}{1-\alpha}} \]</span></p>
 <p>The rate of return for Model 2 is given by :-</p>
-<p><span class="math inline">\(r = \lambda_L\alpha (L-\frac {g}{\lambda_L})\)</span> ***</p>
+<p><span class="math display">\[ r = \lambda_L\alpha (L-\frac {g}{\lambda_L}) \]</span></p>
+</section><section class="slide level2">
+
 <p><strong>Growth Rate</strong></p>
 <p>The growth rate for Model 1 is given by :-</p>
-<p><span class="math display">\[g = \frac{\lambda \frac{1-\alpha} {\alpha} L\alpha^{\frac {2} {1-\alpha}}-\rho } {\varepsilon}\]</span></p>
+<p><span class="math display">\[ g = \frac{\lambda \frac{1-\alpha} {\alpha} L\alpha^{\frac {2} {1-\alpha}}-\rho } {\varepsilon} \]</span></p>
 <p>The growth rate for Model 2 is given by :-</p>
-<p><span class="math display">\[g = \frac{\alpha \lambda L - \rho}{\alpha + \varepsilon}\]</span> ***</p>
-<p><strong>Graphical Representation</strong></p>
+<p><span class="math display">\[ g = \frac{\alpha \lambda L - \rho}{\alpha + \varepsilon} \]</span></p>
+</section><section class="slide level2">
+
+</section></section>
+<section><section id="comments-from-numerical-calibration" class="titleslide slide level1"><h1>4. Comments from numerical calibration</h1></section><section class="slide level2">
+
 <figure>
-<img src="images/ExcelGraph" alt="image" /><figcaption>image</figcaption>
+<img src="images\excelgraph.png" />
 </figure>
-<p>Growth and interest rate in response to parameter shocks ***</p>
-<p><strong>d. Comments from numerical calibration in Excel</strong></p>
-<p>The effect of change in preferences $ ($ and $ ) $ showed following characteristics over the two models :-</p>
+</section><section class="slide level2">
+
+<p>The effect of change in preferences <span class="math display">\[ (\rho ,  \varepsilon) \]</span> showed following characteristics over the two models :-</p>
 <ul>
 <li>Increasing growth rate needs more effort in Labor R&amp;D Model than Lab Equipment Model as shown by the response of growth rate to parameter shocks.</li>
 </ul>
@@ -107,25 +147,33 @@
 </ul>
 <!-- -->
 <ul>
-<li>The response of growth rates to parameter shocks was as expected. The growth rates changed in the same direction.</li>
+<li>The response of growth rates to parameter shocks was as expected.The growth rates changed in the same direction.</li>
 </ul>
-<p>The effect of change in initial condition <span class="math inline">\((\lambda)\)</span></p>
+</section><section class="slide level2">
+
+<p>The effect of change in initial condition <span class="math display">\[ \lambda \]</span></p>
 <ul>
 <li>The growth rates changed in both directions, but the effect was bigger for Lab Equipment Model.</li>
 </ul>
-<p>The effect of change in $ $</p>
+<p>The effect of change in <span class="math display">\[ \alpha \]</span></p>
 <ul>
-<li>The change in $ $ changed the growth rates in different direction, decreasing growth rate for Lab Equipment Model, while increasing growth rate for Labor R&amp;D model. ***</li>
+<li>The change in <span class="math display">\[ \alpha \]</span> changed the growth rates in different direction, decreasing growth rate for Lab Equipment Model, while increasing growth rate for Labor R&amp;D model.</li>
 </ul>
-<p><strong>Conclusion</strong></p>
+</section><section class="slide level2">
+
+</section></section>
+<section><section id="conclusion" class="titleslide slide level1"><h1>5. Conclusion</h1></section><section class="slide level2">
+
 <ul>
 <li><p>The models behaved differently with respect to different parameter shocks because of the difference in inputs used for R&amp;D between two models.</p></li>
-<li><p>Both models have the prospects of unbounded growth ***</p></li>
+<li><p>Both models have the prospects of unbounded growth</p></li>
 </ul>
+</section><section class="slide level2">
+
 <figure>
-<img src="images/ThankYou" alt="image" /><figcaption>image</figcaption>
+<img src="images\thankyou.jpg" />
 </figure>
-</section>
+</section></section>
     </div>
   </div>
 

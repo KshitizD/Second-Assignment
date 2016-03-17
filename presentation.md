@@ -160,7 +160,7 @@ $$ g = \frac{\alpha \lambda L - \rho}{\alpha + \varepsilon} $$
 
 -----------
 
-The effect of change in preferences $$ (\rho ,  \varepsilon) $$
+The effect of change in preferences $ (\rho ,  \varepsilon) $
 showed following characteristics over the two models :-
 
 -   Increasing growth rate needs more effort in Labor R&D Model than Lab Equipment Model as shown by the response of growth rate to parameter shocks.
@@ -179,9 +179,9 @@ The effect of change in initial condition $$ \lambda $$
 
 -   The growth rates changed in both directions, but the effect was bigger for Lab Equipment Model.
 
-The effect of change in $$ \alpha $$
+The effect of change in $ \alpha $
 
--   The change in $$ \alpha $$ changed the growth rates in different direction, decreasing growth rate for Lab Equipment Model, while increasing growth rate for Labor R&D model.
+-   The change in $ \alpha $ changed the growth rates in different direction, decreasing growth rate for Lab Equipment Model, while increasing growth rate for Labor R&D model.
 
 -----------------
 

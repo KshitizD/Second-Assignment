@@ -154,13 +154,14 @@ $$ g = \frac{\alpha \lambda L - \rho}{\alpha + \varepsilon} $$
 
 4. Comments from numerical calibration
 ==========
------------
-
-![](images\excelgraph.png)
 
 -----------
 
-The effect of change in preferences $ (\rho ,  \varepsilon) $
+![](http://www.arsbackgrounds.com/wp-content/uploads/2013/09/031911-ignore-unemployment-trends-during-a-job-search-300x2281.jpg)
+
+-----------
+
+The effect of change in preferences $(\rho , \varepsilon)$
 showed following characteristics over the two models :-
 
 -   Increasing growth rate needs more effort in Labor R&D Model than Lab Equipment Model as shown by the response of growth rate to parameter shocks.
@@ -175,13 +176,13 @@ showed following characteristics over the two models :-
 
 ------------------
 
-The effect of change in initial condition $$ \lambda $$
+The effect of change in initial condition $\lambda$
 
 -   The growth rates changed in both directions, but the effect was bigger for Lab Equipment Model.
 
-The effect of change in $ \alpha $
+The effect of change in $\alpha$
 
--   The change in $ \alpha $ changed the growth rates in different direction, decreasing growth rate for Lab Equipment Model, while increasing growth rate for Labor R&D model.
+-   The change in $\alpha$ changed the growth rates in different direction, decreasing growth rate for Lab Equipment Model, while increasing growth rate for Labor R&D model.
 
 -----------------
 
@@ -196,5 +197,5 @@ The effect of change in $ \alpha $
 
 ---------------------------
 
-![](images\thankyou.jpg)
+![](http://29gx9627manh35u6u63gnsfl.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/thank-you-1400x800-c-default.gif)
 
